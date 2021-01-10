@@ -1,0 +1,106 @@
+/*.wrapper{
+
+    padding: 0;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.crousel{
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-play-state:running; 
+    animation-name: slide_animation;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-play-state:running;
+}
+
+img{
+    width: 400px;
+    height: 300px;
+}
+
+@keyframes slide_animation{
+    0% {left: 0px;} 
+    10% {left: 0px;}
+    20% {left: 500px;}
+    30% {left: 500px;}
+    40% {left: 500px;}
+    50% {left: 500px;}
+    60% {left: 1000px;}
+    70% {left: 1000px;}
+    80% {left: 1000px;}
+    90% {left: 1000px;}
+    100% {left:1000px;}
+}
+*/
+  
+  .wrapper{
+    width: 500px;
+    height: 280px;
+    overflow:hidden;
+    margin: auto;
+  }
+  
+  .slides{
+    width: 1500px;
+    height: 280px;
+    margin-left: -1000px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 7s;
+    -webkit-animation-iteration-count:infinite;
+    animation-name: slide_animation;
+    animation-duration: 7s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+  }
+  
+  
+  .slide{
+    float: left;
+  }
+
+  .slides img{
+    width: 500px;
+    height: 280px;
+  }
+
+  @keyframes slide_animation{
+       0% {left: 0px;} 
+       10% {left: 300px;}
+       20% {left: 400px;}
+       30% {left: 500px;}
+       40% {left: 600px;}
+       50% {left: 700px;}
+       60% {left: 800px;}
+       70% {left: 9000px;}
+       80% {left: 1000px;}
+       90% {left: 1100px;}
+       100% {left:1200px;}
+  }
+  
+  @-webkit-keyframes slide_animation /* Safari and Chrome */{
+    0% {left: 0px;} 
+    10% {left: 300px;}
+    20% {left: 400px;}
+    30% {left: 500px;}
+    40% {left: 600px;}
+    50% {left: 700px;}
+    60% {left: 800px;}
+    70% {left: 9000px;}
+    80% {left: 1000px;}
+    90% {left: 1100px;}
+    100% {left:1200px;}
+  }
+  
+
+  
+  
+  
+
+  
